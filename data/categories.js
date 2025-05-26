@@ -1,0 +1,217 @@
+export const categories = [
+  {
+    src: "/icons/category-icons/1.svg",
+    width: 21,
+    height: 34,
+    title: "Drone Piloting",
+  },
+  {
+    src: "/icons/category-icons/2.svg",
+    width: 31,
+    height: 30,
+    title: "Aerial Photography",
+  },
+  {
+    src: "/icons/category-icons/3.svg",
+    width: 31,
+    height: 30,
+    title: "Drone Programming",
+  },
+  {
+    src: "/icons/category-icons/4.svg",
+    width: 31,
+    height: 30,
+    title: "Drone Applications",
+  },
+  {
+    src: "/icons/category-icons/10.svg",
+    width: 31,
+    height: 30,
+    title: "Flight Cinematography",
+  },
+  {
+    src: "/icons/category-icons/5.svg",
+    width: 26,
+    height: 26,
+    title: "Drone Business",
+  },
+  {
+    src: "/icons/category-icons/6.svg",
+    width: 31,
+    height: 30,
+    title: "Audio for UAVs",
+  },
+  {
+    src: "/icons/category-icons/7.svg",
+    width: 31,
+    height: 30,
+    title: "Drone Data Systems",
+  },
+  {
+    src: "/icons/category-icons/8.svg",
+    width: 31,
+    height: 30,
+    title: "Autonomous Navigation",
+  },
+  {
+    src: "/icons/category-icons/9.svg",
+    width: 30,
+    height: 30,
+    title: "Aerial Imaging",
+  },
+  {
+    src: "/icons/category-icons/10.svg",
+    width: 31,
+    height: 30,
+    title: "Flight Cinematography",
+  },
+];
+
+export const categories2 = [
+  {
+    imgSrc: "/images/categories/categories-01.jpg",
+    alt: "Drone Piloting",
+    category: "Drone Piloting",
+    delay: "0.3s",
+    courses: "15 Courses",
+  },
+  {
+    imgSrc: "/images/categories/categories-02.jpg",
+    alt: "Aerial Photography",
+    category: "Aerial Photography",
+    delay: "0.33s",
+    courses: "15 Courses",
+  },
+  {
+    imgSrc: "/images/categories/categories-03.jpg",
+    alt: "Drone Programming",
+    category: "Drone Programming",
+    delay: "0.35s",
+    courses: "15 Courses",
+  },
+  {
+    imgSrc: "/images/categories/categories-04.jpg",
+    alt: "Flight Cinematography",
+    category: "Flight Cinematography",
+    delay: "0.37s",
+    courses: "15 Courses",
+  },
+  {
+    imgSrc: "/images/categories/categories-05.jpg",
+    alt: "Audio for UAVs",
+    category: "Audio for UAVs",
+    delay: "0.4s",
+    courses: "15 Courses",
+  },
+  {
+    imgSrc: "/images/categories/categories-06.jpg",
+    alt: "Drone Business",
+    category: "Drone Business",
+    delay: "0.43s",
+    courses: "15 Courses",
+  },
+  {
+    imgSrc: "/images/categories/categories-07.jpg",
+    alt: "Drone Applications",
+    category: "Drone Applications",
+    delay: "0.45s",
+    courses: "15 Courses",
+  },
+  {
+    imgSrc: "/images/categories/categories-08.jpg",
+    alt: "Drone Data Systems",
+    category: "Drone Data Systems",
+    delay: "0.47s",
+    courses: "15 Courses",
+  },
+];
+
+export const categories3 = [
+  {
+    id: 1,
+    imgSrc: "/images/categories/categories-09.jpg",
+    title: "Drone Piloting",
+    coursesCount: 15,
+  },
+  {
+    id: 2,
+    imgSrc: "/images/categories/categories-10.jpg",
+    title: "Aerial Photography",
+    coursesCount: 15,
+  },
+  {
+    id: 3,
+    imgSrc: "/images/categories/categories-11.jpg",
+    title: "Flight Cinematography",
+    coursesCount: 15,
+  },
+  {
+    id: 4,
+    imgSrc: "/images/categories/categories-12.jpg",
+    title: "Autonomous Navigation",
+    coursesCount: 15,
+  },
+  {
+    id: 5,
+    imgSrc: "/images/categories/categories-13.jpg",
+    title: "Audio for UAVs",
+    coursesCount: 15,
+  },
+  {
+    id: 6,
+    imgSrc: "/images/categories/categories-11.jpg",
+    title: "Flight Cinematography",
+    coursesCount: 15,
+  },
+];
+
+export const academicSlides = [
+  {
+    href: "#",
+    imgSrc: "/images/section/academisc-1.jpg",
+    imgAlt: "",
+    imgWidth: 520,
+    imgHeight: 520,
+    text: "Drone <br /> Foundations",
+  },
+  {
+    href: "#",
+    imgSrc: "/images/section/academisc-2.jpg",
+    imgAlt: "",
+    imgWidth: 520,
+    imgHeight: 520,
+    text: "Advanced <br /> Flight Training",
+  },
+  {
+    href: "#",
+    imgSrc: "/images/section/academisc-3.jpg",
+    imgAlt: "",
+    imgWidth: 520,
+    imgHeight: 520,
+    text: "Drone <br /> Specializations",
+  },
+  {
+    href: "#",
+    imgSrc: "/images/section/academisc-4.jpg",
+    imgAlt: "",
+    imgWidth: 520,
+    imgHeight: 520,
+    text: "Online <br /> Learning",
+  },
+  {
+    href: "#",
+    imgSrc: "/images/section/academisc-5.jpg",
+    imgAlt: "",
+    imgWidth: 520,
+    imgHeight: 520,
+    text: "Global <br /> Certifications",
+  },
+  {
+    href: "#",
+    imgSrc: "/images/section/academisc-3.jpg",
+    imgAlt: "",
+    imgWidth: 520,
+    imgHeight: 520,
+    text: "Drone <br /> Specializations",
+  },
+];

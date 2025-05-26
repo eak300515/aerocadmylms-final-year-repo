@@ -1,0 +1,244 @@
+export const menuItems = [
+  {
+    title: "Home",
+    isActive: true,
+    subItems: [{ title: "Home Page", href: "/home-02" }],
+  },
+  {
+    title: "Courses",
+    hasMega: true,
+    subItems: [
+      {
+        title: "Course Category",
+        subItems: [
+          { title: "Drone Engineering", href: "/categories" },
+          { title: "Flight Training", href: "/categories" },
+          { title: "Aerial Photography", href: "/categories" },
+          { title: "Remote Sensing & GIS", href: "/categories" },
+          { title: "UAV Regulations", href: "/categories" },
+          { title: "Mission Planning", href: "/categories" },
+          { title: "Aerospace Systems", href: "/categories" },
+          { title: "Drone Programming", href: "/categories" },
+          ,
+        ],
+      },
+    ],
+  },
+  {
+    title: "Pages",
+    isActive: true,
+    subItems: [
+      { title: "Instructor List", href: "/instructor-list" },
+      { title: "Instructor Single", href: "/instructor-single/1" },
+      { title: "Become a Teacher", href: "/become-teacher" },
+      { title: "Event List", href: "/event-list" },
+      { title: "Event Single", href: "/event-single/1" },
+      { title: "About", href: "/about" },
+      { title: "Contact", href: "/contact" },
+      { title: "Help Center", href: "/help-center" },
+      { title: "Pricing", href: "/pricing" },
+      { title: "Faq", href: "/faq" },
+      { title: "Terms", href: "/terms" },
+      { title: "404", href: "/page-not-found" },
+      { title: "Login", href: "/login" },
+      { title: "Register", href: "/register" },
+      { title: "Instructor Dashboard", href: "/instructor-dashboard" },
+      { title: "Student Dashboard", href: "/student-dashboard" },
+      { title: "UI Elements", href: "/ui-elements" },
+    ],
+  },
+ 
+  {
+    title: "Shop",
+    subItems: [
+      { title: "Shop List", href: "/shop-list" },
+      { title: "Shop Single", href: "/shop-single/1" },
+      { title: "Shop Cart", href: "/shop-cart" },
+      { title: "Shop Checkout", href: "/shop-checkout" },
+      { title: "Shop Order", href: "/shop-order" },
+    ],
+  },
+];
+
+export const categories = [
+  {
+    id: 1,
+    title: "Drone Technology",
+
+    subItems: [
+  { id: 1, title: "Drone Maintenance", href: "/categories" },
+  { id: 2, title: "Flight Operations", href: "/categories" },
+  { id: 3, title: "Mission Planning", href: "/categories" },
+  { id: 4, title: "Aerospace Manufacturing", href: "/categories" },
+  { id: 5, title: "Remote Sensing & Data Analysis", href: "/categories" },
+  { id: 6, title: "Aviation Safety", href: "/categories" },
+  { id: 7, title: "UAV Regulations", href: "/categories" },
+  { id: 8, title: "Drone Logistics", href: "/categories" },
+  { id: 9, title: "Air Traffic Management", href: "/categories" },
+  { id: 10, title: "Ground Control Systems", href: "/categories" },
+],
+
+  },
+  {
+    id: 2,
+    title: "Aviation Basics",
+
+   subItems: [
+  { id: 1, title: "Drone Maintenance", href: "/categories" },
+  { id: 2, title: "Flight Operations", href: "/categories" },
+  { id: 3, title: "Mission Planning", href: "/categories" },
+  { id: 4, title: "Aerospace Manufacturing", href: "/categories" },
+  { id: 5, title: "Remote Sensing & Data Analysis", href: "/categories" },
+  { id: 6, title: "Aviation Safety", href: "/categories" },
+  { id: 7, title: "UAV Regulations", href: "/categories" },
+  { id: 8, title: "Drone Logistics", href: "/categories" },
+  { id: 9, title: "Air Traffic Management", href: "/categories" },
+  { id: 10, title: "Ground Control Systems", href: "/categories" },
+],
+
+  },
+  {
+    id: 3,
+    title: "Aerospace Engineering",
+
+   subItems: [
+  { id: 1, title: "Drone Maintenance", href: "/categories" },
+  { id: 2, title: "Flight Operations", href: "/categories" },
+  { id: 3, title: "Mission Planning", href: "/categories" },
+  { id: 4, title: "Aerospace Manufacturing", href: "/categories" },
+  { id: 5, title: "Remote Sensing & Data Analysis", href: "/categories" },
+  { id: 6, title: "Aviation Safety", href: "/categories" },
+  { id: 7, title: "UAV Regulations", href: "/categories" },
+  { id: 8, title: "Drone Logistics", href: "/categories" },
+  { id: 9, title: "Air Traffic Management", href: "/categories" },
+  { id: 10, title: "Ground Control Systems", href: "/categories" },
+],
+
+  },
+  {
+    id: 4,
+    title: "Flight Simulation",
+
+    subItems: [
+  { id: 1, title: "Drone Maintenance", href: "/categories" },
+  { id: 2, title: "Flight Operations", href: "/categories" },
+  { id: 3, title: "Mission Planning", href: "/categories" },
+  { id: 4, title: "Aerospace Manufacturing", href: "/categories" },
+  { id: 5, title: "Remote Sensing & Data Analysis", href: "/categories" },
+  { id: 6, title: "Aviation Safety", href: "/categories" },
+  { id: 7, title: "UAV Regulations", href: "/categories" },
+  { id: 8, title: "Drone Logistics", href: "/categories" },
+  { id: 9, title: "Air Traffic Management", href: "/categories" },
+  { id: 10, title: "Ground Control Systems", href: "/categories" },
+],
+
+  },
+  {
+    id: 5,
+    title: "Drone Cinematography",
+
+    subItems: [
+  { id: 1, title: "Drone Maintenance", href: "/categories" },
+  { id: 2, title: "Flight Operations", href: "/categories" },
+  { id: 3, title: "Mission Planning", href: "/categories" },
+  { id: 4, title: "Aerospace Manufacturing", href: "/categories" },
+  { id: 5, title: "Remote Sensing & Data Analysis", href: "/categories" },
+  { id: 6, title: "Aviation Safety", href: "/categories" },
+  { id: 7, title: "UAV Regulations", href: "/categories" },
+  { id: 8, title: "Drone Logistics", href: "/categories" },
+  { id: 9, title: "Air Traffic Management", href: "/categories" },
+  { id: 10, title: "Ground Control Systems", href: "/categories" },
+],
+
+  },
+  {
+    id: 6,
+    title: "UAV Regulations",
+
+    subItems: [
+  { id: 1, title: "Drone Maintenance", href: "/categories" },
+  { id: 2, title: "Flight Operations", href: "/categories" },
+  { id: 3, title: "Mission Planning", href: "/categories" },
+  { id: 4, title: "Aerospace Manufacturing", href: "/categories" },
+  { id: 5, title: "Remote Sensing & Data Analysis", href: "/categories" },
+  { id: 6, title: "Aviation Safety", href: "/categories" },
+  { id: 7, title: "UAV Regulations", href: "/categories" },
+  { id: 8, title: "Drone Logistics", href: "/categories" },
+  { id: 9, title: "Air Traffic Management", href: "/categories" },
+  { id: 10, title: "Ground Control Systems", href: "/categories" },
+],
+
+  },
+  {
+    id: 7,
+    title: "Aerial Photography",
+
+    subItems: [
+  { id: 1, title: "Drone Maintenance", href: "/categories" },
+  { id: 2, title: "Flight Operations", href: "/categories" },
+  { id: 3, title: "Mission Planning", href: "/categories" },
+  { id: 4, title: "Aerospace Manufacturing", href: "/categories" },
+  { id: 5, title: "Remote Sensing & Data Analysis", href: "/categories" },
+  { id: 6, title: "Aviation Safety", href: "/categories" },
+  { id: 7, title: "UAV Regulations", href: "/categories" },
+  { id: 8, title: "Drone Logistics", href: "/categories" },
+  { id: 9, title: "Air Traffic Management", href: "/categories" },
+  { id: 10, title: "Ground Control Systems", href: "/categories" },
+],
+
+  },
+  {
+    id: 8,
+    title: "GIS & Mapping",
+
+    subItems: [
+  { id: 1, title: "Drone Maintenance", href: "/categories" },
+  { id: 2, title: "Flight Operations", href: "/categories" },
+  { id: 3, title: "Mission Planning", href: "/categories" },
+  { id: 4, title: "Aerospace Manufacturing", href: "/categories" },
+  { id: 5, title: "Remote Sensing & Data Analysis", href: "/categories" },
+  { id: 6, title: "Aviation Safety", href: "/categories" },
+  { id: 7, title: "UAV Regulations", href: "/categories" },
+  { id: 8, title: "Drone Logistics", href: "/categories" },
+  { id: 9, title: "Air Traffic Management", href: "/categories" },
+  { id: 10, title: "Ground Control Systems", href: "/categories" },
+],
+
+  },
+  {
+    id: 9,
+    title: "Aerodynamics",
+
+    subItems: [
+  { id: 1, title: "Drone Maintenance", href: "/categories" },
+  { id: 2, title: "Flight Operations", href: "/categories" },
+  { id: 3, title: "Mission Planning", href: "/categories" },
+  { id: 4, title: "Aerospace Manufacturing", href: "/categories" },
+  { id: 5, title: "Remote Sensing & Data Analysis", href: "/categories" },
+  { id: 6, title: "Aviation Safety", href: "/categories" },
+  { id: 7, title: "UAV Regulations", href: "/categories" },
+  { id: 8, title: "Drone Logistics", href: "/categories" },
+  { id: 9, title: "Air Traffic Management", href: "/categories" },
+  { id: 10, title: "Ground Control Systems", href: "/categories" },
+],
+
+  },
+  {
+    id: 10,
+    title: "Drone Programming & Tech",
+
+    subItems: [
+  { id: 1, title: "Drone Maintenance", href: "/categories" },
+  { id: 2, title: "Flight Operations", href: "/categories" },
+  { id: 3, title: "Mission Planning", href: "/categories" },
+  { id: 4, title: "Aerospace Manufacturing", href: "/categories" },
+  { id: 5, title: "Remote Sensing & Data Analysis", href: "/categories" },
+  { id: 6, title: "Aviation Safety", href: "/categories" },
+  { id: 7, title: "UAV Regulations", href: "/categories" },
+  { id: 8, title: "Drone Logistics", href: "/categories" },
+  { id: 9, title: "Air Traffic Management", href: "/categories" },
+  { id: 10, title: "Ground Control Systems", href: "/categories" },
+],
+
+  },
+];
