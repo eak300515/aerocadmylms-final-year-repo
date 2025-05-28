@@ -135,7 +135,7 @@ export default function Register() {
                         required
                       />
                       <label className="tf-field-label fs-15" htmlFor="field4">
-                        Repoat Password
+                        Repeat Password
                       </label>
                     </fieldset>
                   </div>
