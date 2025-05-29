@@ -38,10 +38,10 @@ export default function Nav() {
       {menuItems.map((item, index) => (
         <li
           key={index}
-          className={item.isActive ? "has-children current" : "has-children"}
+          className={item.subItems ? "has-children" : "no-children"}
         >
           <a
-            href="#"
+            href="/"
             className={isMenuActive(item) ? "parent-active activeMenu" : ""}
           >
             {item.title}

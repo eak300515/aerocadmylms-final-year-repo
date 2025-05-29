@@ -24,8 +24,8 @@ export default function Header2() {
                   id="logo-header"
                   alt=""
                   src="/images/logo/aerocadmy-logo.svg"
-                  width={123}
-                  height={36}
+                  width={180}
+                  height={50}
                 />
               </Link>
             </div>

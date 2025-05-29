@@ -15,7 +15,7 @@ import React from "react";
 
 export const metadata = {
   title:
-    "Home 2 || UpSkill - Education Online Courses LMS React Nextjs Template",
+    "Aerocadmy - Learn Drone Piloting, Navigation, and Control with AeroCadmy",
   description: "UpSkill - Education Online Courses LMS React Nextjs Template",
 };
 export default function page() {
@@ -25,7 +25,7 @@ export default function page() {
       <div id="wrapper">
         {" "}
         <div className="tf-top-bar style-1 flex items-center justify-center">
-          <p>Intro price. Get UpSkill for Big Sale -95% off.</p>
+          <p>Get 50% off on first course use code FIRST50</p>
         </div>
         <Header2 />
         <Hero />

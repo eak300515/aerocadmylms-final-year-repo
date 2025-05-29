@@ -52,15 +52,18 @@ export default function Hero() {
                     <i className="icon-flash" />
                   </div>
                   <div className="sub-tag-title">
-                    <p>Take Learning to New Heights — Master the Skies with aerocadmy!</p>
+                    <p>
+                      Take Learning to New Heights — Master the Skies with
+                      aerocadmy!
+                    </p>
                   </div>
                 </div>
                 <h1 className="fw-7 wow fadeInUp" data-wow-delay="0.2s">
                   Elevate Learning. Fly High.
                 </h1>
                 <h6 className="wow fadeInUp" data-wow-delay="0.3s">
-                  Build skills for now—and what’s next. Start learning drones today with
-                  us.
+                  Build skills for now—and what’s next. Start learning drones
+                  today with us.
                 </h6>
                 <div className="bottom-btns">
                   <a

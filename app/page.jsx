@@ -1,14 +1,13 @@
-import HomePage1 from "./(homes)/home-01/page";
+import HomePage from "./(homes)/home-02/page";
 
 export const metadata = {
-  title:
-    "Home 1 || UpSkill - Education Online Courses LMS React Nextjs Template",
-  description: "UpSkill - Education Online Courses LMS React Nextjs Template",
+  title: "Aerocadmy - Where Drone Learning Starts",
+  description: "Where Drone Learning Starts",
 };
 export default function Home() {
   return (
     <>
-      <HomePage1 />
+      <HomePage />
     </>
   );
 }
