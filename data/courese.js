@@ -1,7 +1,7 @@
 export const courses = [
   {
     id: 1,
-    imgSrc: "/images/courses/course-01.jpg",
+    imgSrc: "/images/avatar/eric.jpg",
     alt: "Drone Piloting",
     lessons: "12 Lessons",
     duration: "14 hours",
@@ -217,7 +217,7 @@ export const courses2 = [
   },
   {
     id: 12,
-    imgSrc: "/images/courses/course-01.jpg",
+    imgSrc: "/images/avatar/eric.jpg",
     alt: "Master Drone Piloting: From Basics to Certification",
     calendar: 12,
     users: 229,
@@ -291,7 +291,7 @@ export const courses2 = [
 export const courses3 = [
   {
     id: 17,
-    imgSrc: "/images/courses/course-01.jpg",
+    imgSrc: "/images/avatar/eric.jpg",
     title: "Master Drone Piloting: From Basics to Certification",
     lessons: 11,
     students: 229,
