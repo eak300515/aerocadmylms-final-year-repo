@@ -23,7 +23,7 @@ export const courses = [
   },
   {
     id: 2,
-    imgSrc: "/images/courses/course-02.jpg",
+    imgSrc: "/images/avatar/surabhi.jpg",
     alt: "Aerial Photography",
     lessons: "10 Lessons",
     duration: "12 hours",
@@ -231,7 +231,7 @@ export const courses2 = [
   },
   {
     id: 13,
-    imgSrc: "/images/courses/course-02.jpg",
+    imgSrc: "/images/avatar/surabhi.jpg",
     alt: "Aerial Photography with Drones: Pro-Level Skills",
     calendar: 10,
     users: 315,
@@ -315,7 +315,7 @@ export const courses3 = [
   },
   {
     id: 18,
-    imgSrc: "/images/courses/course-02.jpg",
+    imgSrc: "/images/avatar/surabhi.jpg",
     title: "Aerial Photography with Drones: Pro-Level Skills",
     lessons: 11,
     students: 229,
